@@ -110,3 +110,12 @@ li a {
 footer {
     text-align: center;
 }
+
+#greeting {
+    color: white;
+    border-right: 1px solid  rgba(108, 108, 255, 0.3);
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    margin: 0;
+}
