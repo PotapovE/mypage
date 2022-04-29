@@ -3,7 +3,8 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background: url(../img/pexels-andreea-ch-1166648.jpg);
+    background: #edeef0;
+    color: #424949;
 }
 
 h1 {
@@ -14,8 +15,7 @@ nav {
     width: 100%;
     height: 50px;
     padding: 10px 0;
-    border-bottom: 2px solid white;
-    background: rgb(10, 10, 116);
+    background: #ffffff;
     background-size: cover;
 }
 
@@ -28,10 +28,10 @@ nav {
     width: 150px;
     height: 50px;
     float: left;
-    background: rgb(108, 108, 255);
+    background: #edeef0;
     border-radius: 20px;
     text-align: center;
-    color: white;  
+    color: #8994a1;  
 }
 
 #navWrap {
@@ -43,20 +43,20 @@ nav {
 }
 
 #navWrap a {
-    border-left: 1px solid  rgba(108, 108, 255, 0.3);
-    border-right: 1px solid  rgba(108, 108, 255, 0.3);
+    border-left: 1px solid  #edeef0;
+    border-right: 1px solid  #edeef0;
     display: block;
-    color: white;
+    color: #8994a1;
     padding: 0 20px;
     line-height: 70px;
     text-decoration: none;
 }
-#navWrap a:last-child {
-    border-left: none;
+#navWrap a:first-child {
+    border-right: none;
 }
 
 #navWrap a:hover {
-    background: rgb(108, 108, 255);
+    background: #edeef0;
 }
 
 main {
@@ -73,17 +73,19 @@ aside {
 }
 
 aside h2 {
-    background: rgb(10, 10, 116);
+    background: #ffffff;
     margin: 0;
-    color: white;
+    color: #2a5885;
     text-align: center;
+    border-radius: 5px;
 }
 
 article {
     float: left;
     width: 100%;
-    background: white;
+    background: #ffffff;
     padding: 0 10px;
+    border-radius: 5px;
 }
 
 article h2 {
@@ -93,7 +95,8 @@ article h2 {
 ul {
     padding: 0;
     margin: 5px 0;
-    background: rgb(10, 10, 116);
+    background: #ffffff;
+    border-radius: 5px;
         
 }
 
@@ -102,7 +105,7 @@ li {
 }
 
 li a {
-    color: white;
+    color: #819c99;
     margin: 5px;
     text-decoration: none;
 }
@@ -112,8 +115,8 @@ footer {
 }
 
 #greeting {
-    color: white;
-    border-right: 1px solid  rgba(108, 108, 255, 0.3);
+    color: #8994a1;
+    border-right: 1px solid  #edeef0;
     display: block;
     padding: 0 20px;
     line-height: 70px;
