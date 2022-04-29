@@ -50,6 +50,7 @@ nav {
     padding: 0 20px;
     line-height: 70px;
     text-decoration: none;
+    transition: 0.6s;
 }
 #navWrap a:first-child {
     border-right: none;
